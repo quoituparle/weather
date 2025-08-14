@@ -7,8 +7,9 @@ A simple but useful app to check weather in your region
 
 ### ► How to Run
 Find the API key in weatherstack.com and past it in the .env file.
-cd backend
-pip install requirements.txt
-fastapi dev main.py
-cd frontend
-npm run dev
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    fastapi dev main.py
+    npm run dev
+    ```
